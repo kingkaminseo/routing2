@@ -14,6 +14,7 @@ const Home = () => {
     
         // 모든 입력 필드가 비어있으면 등록하지 않음
         if (!(englishWord || koreanWord || description || example)) {
+          console.log('sorry')
           return;
         }
     
